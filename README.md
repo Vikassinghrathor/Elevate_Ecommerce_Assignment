@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Elevate Frontend Assignment
 
-## Available Scripts
+Assignment solution for the position of Frontend Developer for Elevate
 
-In the project directory, you can run:
+View the live website here: [https://elevate-assignment-omega.vercel.app/](https://elevate-assignment-omega.vercel.app/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Uses ReactJS, React Hooks, React Context, CSS, and Javascript 
+- Fully Responsive Design
+- Reusable Components
+## API Reference
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Fake Store API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Fake store rest API for your e-commerce or shopping website prototype
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Docs Link: [Fake Store API](https://fakestoreapi.com/docs)
 
-### `npm run eject`
+```http
+  GET https://fakestoreapi.com/products
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Opening the application shows an e-commerce page design similar to the provided image as below.
 
-### Code Splitting
+    ![Provided Image Here](./src/assets/Assignment.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Fully functional sidebar is seen by clicking on the hamburger icon in the banner.
+- The Categories dropdown filters products by categories that have been fetched from the API.
+- The Search bar searches and filters products that have been searched.
+- The Language Dropdown in the banner is non-functional and for display purposes only.
+- The 'Cart' and 'Profile' buttons are non-functional and for display purposes only.
+- The 'Buy Now' and 'See More' buttons on each product cards are non-functional and for display purposes only.
+- The header on top is non functional and for display purposes only.
+## Run Locally
 
-### Analyzing the Bundle Size
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  git clone https://github.com/Vikassinghrathor/elevate-assignment.git
+```
 
-### Making a Progressive Web App
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  cd elevate-frontend-assignment
+```
 
-### Advanced Configuration
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm install
+  
+  OR
 
-### Deployment
+  yarn install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Start the development server
 
-### `npm run build` fails to minify
+```bash
+  npm run dev
+```
+Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## About the Developer
+
+- GitHub: [https://github.com/Vikassinghrathor](https://github.com/Vikassinghrathor)
+- LinkedIn: [https://www.linkedin.com/in/vikas-rathore-51ba91194/](https://www.linkedin.com/in/vikas-rathore-51ba91194/)
+- Leetcode: [https://leetcode.com/vikas2809/](https://leetcode.com/vikas2809/)
